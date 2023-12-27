@@ -55,15 +55,19 @@ class MyServer(BaseHTTPRequestHandler):
 print("This is my webserver") 
 server_address =('',80)
 httpd = HTTPServer(server_address,MyServer)
-httpd.serve_forever()```
+httpd.serve_forever()
+```
 
-## OUTPUT:
+### OUTPUT:
 ### Server output:
-![server output](https://github.com/jabezs2005/webserver/assets/147473463/f1a31f0e-7151-4a55-853f-32ed0360846b)
+
+![server output](https://github.com/jabezs2005/webserver/assets/147473463/6ed0bfc9-a104-4811-b18c-fac870bc0aae)
+
 
 
 ### Client output:
-![client output](https://github.com/jabezs2005/webserver/assets/147473463/d28961c8-d90a-44c0-819d-7e74ec143368)
+![client output](https://github.com/jabezs2005/webserver/assets/147473463/588dc83f-4531-4d52-be48-22bba0b3e718)
+
 
 ## RESULT:
 The program is executed succesfully
